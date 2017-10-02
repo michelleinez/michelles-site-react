@@ -1,29 +1,25 @@
 {
-  "name": "michelles-website",
-  "version": "1.0.0",
-  "description": "",
+  "author": "",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "express": "^4.14.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.0"
+  },
+  "description": "My Project",
+  "keywords": [],
+  "license": "ISC",
   "main": "index.js",
+  "name": "my-project",
   "scripts": {
     "compile": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/michelleinez/michelles-site-react.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "express": "^4.16.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "webpack": "^3.6.0",
-    "webpack-dev-middleware": "^1.12.0"
-  }
+  "version": "1.0.0"
 }
